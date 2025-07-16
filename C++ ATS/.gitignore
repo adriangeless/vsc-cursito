@@ -1,0 +1,45 @@
+# Archivos de compilación y binarios
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Carpetas de compilación comunes
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos temporales del sistema
+*.tmp
+*.log
+*.cache
+*.swp
+*~
+
+# Archivos generados por otros editores
+*.user
+*.userosscache
+*.suo
+*.ncb
+*.sdf
+*.ipch
+
+# Carpetas de dependencias
+node_modules/
+
+# Macros
+*.pch
+
+# Archivos de CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
